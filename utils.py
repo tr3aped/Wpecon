@@ -15,7 +15,7 @@ class C:
 def print_banner():
     banner_text = pyfiglet.figlet_format("Wpecon", font="ansi_shadow")
     title = "Wpecon Suite - WordPress Recon"
-    author = "@Tr3Ped"
+    author = "@Tr3aPed"
     
     lines = banner_text.rstrip('\n').split('\n')
     max_len = max(len(line) for line in lines)
